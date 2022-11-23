@@ -1,0 +1,54 @@
+1.java variable 8 primitive type of  variable 
+int mynum=12;
+short myShort =847;
+long myLong = 9797
+double myDouble=7.234;
+float myFloat =23.3f
+char myChar=’d’;
+boolean myBool =ture;
+byte myByte=127;
+2.non primitive type string type 
+public class Application {
+    public static void main(String[] args) {
+        int myInt =7;
+
+        String text ="hello ";
+        String blank =" ";
+        String name = "raj";
+        String greeting =text +blank +name;
+        System.out.println(greeting);
+        System.out.println(text);
+        System.out.println("hello" + " " + "raj");
+        System.out.println("my integer is " + myInt);
+        double myDouble=2.4;
+        System.out.println("My number is: " + myDouble +".");
+    }
+}
+loops
+public class loop {
+    public static void main(String[] args) {
+//        boolean loop =true;
+        boolean loop =4<5;
+        boolean loop1 =6<1;
+        int  value =12;
+        boolean loop5 = value<23;
+        System.out.println(loop1);
+
+
+       System.out.println(loop);
+}
+}
+    int value = 0;
+    while (value < 10)
+    {
+        System.out.println("hello" + value);
+        value = value+1;
+    }
+
+
+}
+    for(int i =0; i<5; i++){
+        System.out.println("hello");
+        System.out.printf("the value of i is: %d\n" ,i);
+    }
+}
